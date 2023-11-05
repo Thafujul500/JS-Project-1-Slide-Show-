@@ -1,0 +1,28 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   list-style-type: none;
+   text-decoration: none;
+ }
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   text-align: center;
+   background-color: blue;
+   color: gold;
+ }
+.slide-show-element i > span,h1{
+   font-size: 10rem;
+   color: aqua;
+}
+.slide-show-element {
+   position: absolute;
+   transform: translate(-50%,-50%) scale(0);
+}
+.current{
+   position: absolute;
+   transform: translate(-50%,-50%) scale(1);
+}
